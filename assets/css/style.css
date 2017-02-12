@@ -1,0 +1,39 @@
+.jumbotron {
+	text-align: center;
+    padding-top: 20x; 
+    padding-bottom: 20px;
+    padding-left, padding-right: 25px;
+    background-color: lightblue;
+}
+.jumbotron h1 {
+	font-size: 45px;
+}
+
+.container-fluid {
+    padding: 10px 40px; 
+}
+
+.gameboard {
+	text-align: center;
+	padding: 0px;
+	margin: 21px;
+	 background-color: lightblue;
+}
+
+.resultBoard {
+	text-align: center;
+}
+
+.row {
+	padding-bottom: 10px;
+	/*border-bottom: 3px;
+	border-bottom-style: solid;  */
+}
+
+#siteFooter {
+	   background-image: url(images/old_moon.png);
+}
+
+#replay {
+	margin: 15px ;
+}

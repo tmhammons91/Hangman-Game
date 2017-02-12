@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Composers Hangman Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <!-- src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Hangman Game</h1> 
+  <p>Famous Composers!</p> 
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+        <h4>Guess the last name of the composer, letter by letter.</h4> 
+        <p>You're allowed a maximum of 6 incorrect guesses for each name (or, to put it hangman-style, the head, body, left arm, right arm, left leg, right leg). [Note--you will have to reload and press start button to restart after each word.]  </p>
+        <button class="btn btn-default btn-lg" id="start">Press to Start</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class ="col-md-3"></div>
+        <div class ="col-md-6 gameboard">
+          <div class ="gameboard" id="wins-tally"><h5>Wins: </h5></div>
+          <div class ="gameboard" id="word-placeholder"><h5>Current Word Placeholder: </h5></div>
+          <div class ="gameboard" id="guesses-remaining"><h5>Number of Guesses Remaining: <span class="guesses-left">  </span> </h5></div>
+          <div class ="gameboard" id="letters-guessed"><h5>Incorrect Letters Guessed:   </h5></div>
+          <div class ="gameboard" id="hint"><h5>Hint:  </h5></div>
+           <!--button class="btn btn-default btn-md" id="replay">Click to Play Again</button>
+        </div-->
+        <div class ="col-md-3"></div>
+    </div>
+
+    <div class="row">
+        <div class = "col-md-12">
+            <div id="resultBoard"><h5> </h5></div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
